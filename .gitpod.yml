@@ -1,0 +1,5 @@
+image: gitpod/workspace-mongodb:branch-jx-upgrade-mongodb
+
+tasks:
+  - init: mkdir -p /workspace/data
+    command: mongod --dbpath /workspace/data
